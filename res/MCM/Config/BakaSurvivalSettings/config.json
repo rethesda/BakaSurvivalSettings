@@ -1,0 +1,122 @@
+{
+    "modName": "BakaSurvivalSettings",
+    "displayName": "Baka Survival Settings",
+    "content": [
+        {
+            "type": "section",
+            "text": "General"
+        },
+        {
+            "type": "switcher",
+            "text": "Mod Enabled",
+            "help": "Enable/Disable the other mod toggles.",
+            "valueOptions": {
+                "sourceType": "ModSettingBool"
+            },
+            "id": "bEnabled:General"
+        },
+        {
+            "type": "section",
+            "text": "Survival Mode Features"
+        },
+        {
+            "type": "switcher",
+            "text": "Disable Console",
+            "help": "Disable opening the console menu.",
+            "valueOptions": {
+                "sourceType": "ModSettingBool"
+            },
+            "id": "bDisableConsole:General"
+        },
+        {
+            "type": "switcher",
+            "text": "Disable Fast Travel",
+            "help": "Disable fast traveling from the map menu.",
+            "valueOptions": {
+                "sourceType": "ModSettingBool"
+            },
+            "id": "bDisableFastTravel:General"
+        },
+        {
+            "type": "switcher",
+            "text": "Disable God Mode",
+            "help": "Disable god mode/immortal mode.",
+            "valueOptions": {
+                "sourceType": "ModSettingBool"
+            },
+            "id": "bDisableGodMode:General"
+        },
+        {
+            "type": "switcher",
+            "text": "Disable Auto Save",
+            "help": "Disable normal menu/sleep/timed/travel auto saves and auto save menu options.",
+            "valueOptions": {
+                "sourceType": "ModSettingBool"
+            },
+            "id": "bDisableSaveAuto:General"
+        },
+        {
+            "type": "switcher",
+            "text": "Disable Manual Save",
+            "help": "Disable manual saving from the pause menu and quicksave hotkey.",
+            "valueOptions": {
+                "sourceType": "ModSettingBool"
+            },
+            "id": "bDisableSaveSelf:General"
+        },
+        {
+            "type": "switcher",
+            "text": "Enable Aid Weight",
+            "help": "Enable Stimpak/Robot Repair Kit weight.",
+            "valueOptions": {
+                "sourceType": "ModSettingBool"
+            },
+            "id": "bEnableAlchWeight:General"
+        },
+        {
+            "type": "switcher",
+            "text": "Enable Ammo Weight",
+            "help": "Enable ammo weight.",
+            "valueOptions": {
+                "sourceType": "ModSettingBool"
+            },
+            "id": "bEnableAmmoWeight:General"
+        },
+        {
+            "type": "switcher",
+            "text": "Enable Auto Save After Sleep",
+            "help": "Enable Survival Mode's default save mechanic, requiring one hour of sleep with a bed.",
+            "valueOptions": {
+                "sourceType": "ModSettingBool"
+            },
+            "id": "bEnableSleepSave:General"
+        },
+        {
+            "type": "switcher",
+            "text": "Limit Compass Enemy Visible Distance",
+            "help": "Limit from how far away enemies can appear on the compass.",
+            "valueOptions": {
+                "sourceType": "ModSettingBool"
+            },
+            "id": "bLimitCompassEnemies:General"
+        },
+        {
+            "type": "switcher",
+            "text": "Limit Compass Marker Visible Distance",
+            "help": "Limit from how far away locations can appear on the compass.",
+            "valueOptions": {
+                "sourceType": "ModSettingBool"
+            },
+            "id": "bLimitCompassLocations:General"
+        },
+        {
+            "type": "switcher",
+            "text": "Lock Survival Mode After Difficulty Change",
+            "help": "Prevent switching to and from Survival Mode Difficulty.",
+            "valueOptions": {
+                "sourceType": "ModSettingBool"
+            },
+            "id": "bLockSurvival:General"
+        }
+    ]
+}
