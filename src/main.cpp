@@ -199,7 +199,7 @@ namespace Hooks
 		{
 			static REL::Relocation target{ REL::ID(2232986) };
 			target.replace_func(0x3F, IsGodMode);
-	}
+		}
 
 	private:
 		static bool IsGodMode()
